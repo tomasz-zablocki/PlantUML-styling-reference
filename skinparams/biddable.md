@@ -1,0 +1,4 @@
+# Biddable 
+
+* `BackgroundColor`
+* `BorderColor`

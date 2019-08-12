@@ -1,0 +1,19 @@
+# Class
+
+* `AttributeFontColor`
+* `AttributeFontName`
+* `AttributeFontSize`
+* `AttributeFontStyle`
+* `AttributeIconSize`
+* `BackgroundColor`
+* `BorderColor`
+* `BorderThickness`
+* `FontColor`
+* `FontName`
+* `FontSize`
+* `FontStyle`
+* `HeaderBackgroundColor`
+* `StereotypeFontColor`
+* `StereotypeFontName`
+* `StereotypeFontSize`
+* `StereotypeFontStyle`
