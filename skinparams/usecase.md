@@ -1,5 +1,20 @@
 # Usecase
 
+* `ActorBackgroundColor`
+* `ActorBorderColor`
+* `ActorFontColor`
+* `ActorFontName`
+* `ActorFontSize`
+* `ActorFontStyle`
+* `ActorStereotypeFontColor`
+* `ActorStereotypeFontName`
+* `ActorStereotypeFontSize`
+* `ActorStereotypeFontStyle`
+* `ArrowColor`
+* `ArrowFontColor`
+* `ArrowFontName`
+* `ArrowFontSize`
+* `ArrowFontStyle`
 * `BackgroundColor`
 * `BorderColor`
 * `BorderThickness`

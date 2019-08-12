@@ -1,4 +1,4 @@
-# Activitiy 
+# Activity 
 
 * `BackgroundColor`
 * `BarColor`

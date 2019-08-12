@@ -3,7 +3,10 @@
 These params can be set in the root context of diagram.
 
 * `BackgroundColor`
+* `BarColor`
+* `BorderColor`
 * `BoxPadding`
+* `Color`
 * `ColorArrowSeparationSpace`
 * `DefaultFontColor`
 * `DefaultFontName`
@@ -14,7 +17,12 @@ These params can be set in the root context of diagram.
 * `DesignedBackgroundColor`
 * `DesignedBorderColor`
 * `Dpi`
+* `EndColor`
 * `FixCircleLabelOverlapping`
+* `FontColor`
+* `FontName`
+* `FontSize`
+* `FontStyle`
 * `GenericDisplay`
 * `Guillemet`
 * `Handwritten`
@@ -31,6 +39,7 @@ These params can be set in the root context of diagram.
 * `RoundCorner`
 * `SameClassWidth`
 * `Shadowing`
+* `StartColor`
 * `Style`
 * `SvglinkTarget`
 * `TabSize`

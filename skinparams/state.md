@@ -1,5 +1,10 @@
 # State
 
+* `ArrowColor`
+* `ArrowFontColor`
+* `ArrowFontName`
+* `ArrowFontSize`
+* `ArrowFontStyle`
 * `AttributeFontColor`
 * `AttributeFontName`
 * `AttributeFontSize`

@@ -1,5 +1,10 @@
 # Component
 
+* `ArrowColor`
+* `ArrowFontColor`
+* `ArrowFontName`
+* `ArrowFontSize`
+* `ArrowFontStyle`
 * `BackgroundColor`
 * `BorderColor`
 * `BorderThickness`
@@ -7,6 +12,8 @@
 * `FontName`
 * `FontSize`
 * `FontStyle`
+* `InterfaceBackgroundColor`
+* `InterfaceBorderColor`
 * `StereotypeFontColor`
 * `StereotypeFontName`
 * `StereotypeFontSize`

@@ -1,6 +1,17 @@
 # Sequence 
 
+* `ActorBackgroundColor`
+* `ActorBorderColor`
 * `ActorBorderThickness`
+* `ActorFontColor`
+* `ActorFontName`
+* `ActorFontSize`
+* `ActorFontStyle`
+* `ArrowColor`
+* `ArrowFontColor`
+* `ArrowFontName`
+* `ArrowFontSize`
+* `ArrowFontStyle`
 * `ArrowThickness`
 * `BoxBackgroundColor`
 * `BoxBorderColor`
@@ -31,6 +42,14 @@
 * `GroupHeaderFontName`
 * `GroupHeaderFontSize`
 * `GroupHeaderFontStyle`
+* `GroupingFontColor`
+* `GroupingFontName`
+* `GroupingFontSize`
+* `GroupingFontStyle`
+* `GroupingHeaderFontColor`
+* `GroupingHeaderFontName`
+* `GroupingHeaderFontSize`
+* `GroupingHeaderFontStyle`
 * `LifeLineBackgroundColor`
 * `LifeLineBorderColor`
 * `LifeLineBorderThickness`
@@ -38,7 +57,13 @@
 * `MessageTextAlignment`
 * `NewpageSeparatorColor`
 * `Participant`
+* `ParticipantBackgroundColor`
+* `ParticipantBorderColor`
 * `ParticipantBorderThickness`
+* `ParticipantFontColor`
+* `ParticipantFontName`
+* `ParticipantFontSize`
+* `ParticipantFontStyle`
 * `ReferenceAlignment`
 * `ReferenceBackgroundColor`
 * `ReferenceBorderColor`
