@@ -1,0 +1,97 @@
+1: Background
+@startuml
+skinparam Activity {
+  BackgroundColor Green
+}
+start
+:foo;
+stop
+@enduml
+
+2: Bar
+@startuml
+skinparam Activity {
+  BarColor Green
+}
+start
+fork
+:foo;
+fork again
+:bar;
+end fork
+stop
+@enduml
+
+2: Border
+@startuml
+skinparam Activity {
+  BorderColor Green
+  BorderThickness 5
+}
+start
+:foo;
+stop
+@enduml
+
+3: Diamond
+@startuml
+skinparam Activity {
+  DiamondBackgroundColor LightBlue
+  DiamondBorderColor Blue
+  DiamondFontColor DarkBlue
+  DiamondFontName Arial
+  DiamondFontSize 18
+  DiamondFontStyle Bold
+}
+start
+if (isFoo) then (foo)
+  :doFoo;
+else (bar)
+  :doBar;
+endif
+stop
+@enduml
+
+4: EndColor
+@startuml
+skinparam Activity {
+  EndColor Green
+|
+start
+:foo;
+stop
+@enduml
+
+5: Font
+@startuml
+skinparam Activity {
+  FontColor DarkBlue
+  FontName Arial
+  FontSize 18
+  FontStyle Bold
+}
+start
+:foo;
+stop
+@enduml
+
+6: StartColor
+@startuml
+skinparam Activity {
+  StartColor Green
+}
+start
+:foo;
+stop
+@enduml
+
+7: Shape
+@startuml
+skinparam Activity {
+  Shape<<Foo>> Octagon
+  Shape<<Bar>> RoundBox
+}
+(*) --> "foo" << Foo >>
+"foo" --> "bar" << Bar >>
+"bar" --> (*)
+@enduml
