@@ -1,0 +1,10 @@
+@startuml
+skinparam ActivityBarColor Green
+start
+fork
+:foo;
+fork again
+:bar;
+end fork
+stop
+@enduml

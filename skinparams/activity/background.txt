@@ -1,0 +1,6 @@
+@startuml
+skinparam ActivityBackgroundColor Green
+start
+:foo;
+stop
+@enduml

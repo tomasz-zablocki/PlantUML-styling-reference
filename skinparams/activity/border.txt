@@ -1,0 +1,9 @@
+@startuml
+skinparam ActivityBorder {
+  Color Green
+  Thickness 5
+}
+start
+:foo;
+stop
+@enduml

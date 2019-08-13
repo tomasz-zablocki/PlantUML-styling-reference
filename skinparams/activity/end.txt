@@ -1,0 +1,6 @@
+@startuml
+skinparam ActivityEndColor Green
+start
+:foo;
+stop
+@enduml

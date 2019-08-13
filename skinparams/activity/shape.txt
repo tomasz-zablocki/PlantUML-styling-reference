@@ -1,0 +1,9 @@
+@startuml
+skinparam Activity {
+  Shape<<Foo>> Octagon
+  Shape<<Bar>> RoundBox
+}
+(*) --> "foo" << Foo >>
+"foo" --> "bar" << Bar >>
+"bar" --> (*)
+@enduml

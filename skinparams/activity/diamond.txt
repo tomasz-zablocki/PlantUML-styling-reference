@@ -1,0 +1,19 @@
+@startuml
+skinparam ActivityDiamond {
+  BackgroundColor LightBlue
+  BorderColor Blue
+  Font {
+    Color DarkBlue
+    Name Arial
+    Size 18
+    Style Bold
+  }
+}
+start
+if (isFoo) then (foo)
+  :doFoo;
+else (bar)
+  :doBar;
+endif
+stop
+@enduml
