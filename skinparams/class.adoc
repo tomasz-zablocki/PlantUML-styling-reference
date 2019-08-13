@@ -3,7 +3,7 @@
 :rawRoot: https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/class
 :umlroot: {plantumlProxy}={rawRoot}
 
-[cols=".^1m,.^1l,^.^a,3a",options="header",caption=]
+[cols=".^1m,.^1m',^.^a,3a",options="header",caption=]
 .Class skinparams
 |===
 
