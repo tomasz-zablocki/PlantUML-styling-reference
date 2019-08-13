@@ -1,3 +1,5 @@
+[source, plantuml]
+----
 @startuml
 skinparam ClassBorder {
   Color Green
@@ -6,3 +8,5 @@ skinparam ClassBorder {
 class Foo {
 }
 @enduml
+----
+

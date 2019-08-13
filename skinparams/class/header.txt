@@ -1,5 +1,9 @@
+[source, plantuml]
+----
 @startuml
 skinparam ClassHeaderBackgroundColor Green
 class Foo {
 }
 @enduml
+----
+

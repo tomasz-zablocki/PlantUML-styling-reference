@@ -19,48 +19,36 @@
 | Font*
  IconSize
 | image::{umlroot}/attribute.txt[attribute]
-|
-[source,plantuml]
-----
-include::{rawRoot}/attribute.txt[]
-----
+| include::{rawRoot}/attribute.txt[]
 
 | Background
 | Color
 | image::{umlroot}/background.txt[background]
-|
-[source,plantuml]
-----
-include::{rawRoot}/background.txt[]
-----
+| include::{rawRoot}/background.txt[]
 
 | Border
 | Color
  Thickness
 | image::{umlroot}/border.txt[border]
-|
-[source, plantuml]
-----
-include::{rawRoot}/border.txt[]
-----
+| include::{rawRoot}/border.txt[]
+
+| Font
+| Color
+ Size
+ Name
+ Style
+| image::{umlroot}/font.txt[font]
+| include::{rawRoot}/font.txt[]
 
 | Header
 | Background*
 | image::{umlroot}/header.txt[header]
-|
-[source, plantuml]
-----
-include::{rawRoot}/header.txt[]
-----
+| include::{rawRoot}/header.txt[]
 
 | Stereotype
 | Font*
 | image::{umlroot}/stereotype.txt[stereotype]
-|
-[source, plantuml]
-----
-include::{rawRoot}/arrow.txt[]
-----
+| include::{rawRoot}/arrow.txt[]
 
 |===
 

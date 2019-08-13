@@ -1,3 +1,5 @@
+[source, plantuml]
+----
 @startuml
 skinparam ClassStereotypeFont {
   Color DarkBlue
@@ -8,3 +10,5 @@ skinparam ClassStereotypeFont {
 class Foo << Bar >> {
 }
 @enduml
+----
+

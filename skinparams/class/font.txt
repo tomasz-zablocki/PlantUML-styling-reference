@@ -1,3 +1,5 @@
+[source, plantuml]
+----
 @startuml
 skinparam ClassFont {
   Color DarkBlue
@@ -8,3 +10,5 @@ skinparam ClassFont {
 class Foo {
 }
 @enduml
+----
+

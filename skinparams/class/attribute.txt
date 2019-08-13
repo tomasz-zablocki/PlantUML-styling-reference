@@ -1,17 +1,21 @@
+[source, plantuml]
+----
 @startuml
 skinparam {
   ClassAttribute {
     Font {
         Color DarkBlue
         Name Arial
-        Size 22
+        Size 18
         Style Bold
     }
     IconSize 22
   }
-  Padding 20
+  Padding 10
 }
 class Foo {
   +Int Bar
 }
 @enduml
+----
+
