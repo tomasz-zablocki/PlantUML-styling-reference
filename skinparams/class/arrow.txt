@@ -1,4 +1,4 @@
-[source,plantuml]
+[source, plantuml]
 ----
 @startuml
 skinparam ClassArrow {
@@ -12,7 +12,6 @@ skinparam ClassArrow {
 }
 class Foo
 class Bar
-class FooBar
-Foo "1" *-up- "many" FooBar: fooBars
+Foo --> Bar : bars
 @enduml
 ----
