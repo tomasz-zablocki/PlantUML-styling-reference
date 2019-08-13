@@ -145,7 +145,7 @@ class Foo {
     </tr>
         <tr>
             <td><code>Stereotype</code></td>
-            <td><br/><code>Font*</code></td>
+            <td><code>Font*</code></td>
             <td><img
                     src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/class/stereotype.txt"
                     alt="0"/></td>
