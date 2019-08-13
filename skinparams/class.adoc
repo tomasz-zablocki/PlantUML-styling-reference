@@ -1,6 +1,6 @@
 = Class styling
 :plantumlProxy: http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src
-:rawRoot: https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/class
+:rawRoot: https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/class
 :umlroot: {plantumlProxy}={rawRoot}
 
 [cols="m,l,a,a",options="header",caption=,width=100]
