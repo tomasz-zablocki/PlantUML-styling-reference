@@ -1,18 +1,12 @@
-1: Background
 @startuml
-skinparam Activity {
-  BackgroundColor Green
-}
+skinparam ActivityBackgroundColor Green
 start
 :foo;
 stop
 @enduml
 
-2: Bar
 @startuml
-skinparam Activity {
-  BarColor Green
-}
+skinparam ActivityBarColor Green
 start
 fork
 :foo;
@@ -22,26 +16,26 @@ end fork
 stop
 @enduml
 
-2: Border
 @startuml
-skinparam Activity {
-  BorderColor Green
-  BorderThickness 5
+skinparam ActivityBorder {
+  Color Green
+  Thickness 5
 }
 start
 :foo;
 stop
 @enduml
 
-3: Diamond
 @startuml
-skinparam Activity {
-  DiamondBackgroundColor LightBlue
-  DiamondBorderColor Blue
-  DiamondFontColor DarkBlue
-  DiamondFontName Arial
-  DiamondFontSize 18
-  DiamondFontStyle Bold
+skinparam ActivityDiamond {
+  BackgroundColor LightBlue
+  BorderColor Blue
+  Font {
+    Color DarkBlue
+    Name Arial
+    Size 18
+    Style Bold
+  }
 }
 start
 if (isFoo) then (foo)
@@ -52,40 +46,32 @@ endif
 stop
 @enduml
 
-4: EndColor
 @startuml
-skinparam Activity {
-  EndColor Green
-|
+skinparam ActivityEndColor Green
 start
 :foo;
 stop
 @enduml
 
-5: Font
 @startuml
-skinparam Activity {
-  FontColor DarkBlue
-  FontName Arial
-  FontSize 18
-  FontStyle Bold
+skinparam ActivityFont {
+  Color DarkBlue
+  Name Arial
+  Size 18
+  Style Bold
 }
 start
 :foo;
 stop
 @enduml
 
-6: StartColor
 @startuml
-skinparam Activity {
-  StartColor Green
-}
+skinparam ActivityStartColor Green
 start
 :foo;
 stop
 @enduml
 
-7: Shape
 @startuml
 skinparam Activity {
   Shape<<Foo>> Octagon

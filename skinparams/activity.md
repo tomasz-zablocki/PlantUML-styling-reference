@@ -1,6 +1,7 @@
 # Activity
 
-<table>
+
+<table xmlns="http://www.w3.org/1999/html">
     <thead>
     <tr>
         <th>Group</th>
@@ -12,7 +13,7 @@
     <tbody>
         <tr>
             <td><code>Background</code></td>
-            <td><code>BackgroundColor</code></td>
+            <td><code>Color</code></td>
             <td><img
                     src="http://www.plantuml.com/plantuml/proxy?idx=0&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"
                     alt="0"/></td>
@@ -20,40 +21,30 @@
 
 ```puml
 @startuml
-
-skinparam Activity {
-    BackgroundColor Green
-}
-
+skinparam ActivityBackgroundColor Green
 start
 :foo;
-end
-
+stop
 @enduml
 ```
 </td>
         </tr>
         <tr>
             <td><code>Bar</code></td>
-            <td><code>BarColor</code></td>
+            <td><code>Color</code></td>
             <td><img alt="1" src="http://www.plantuml.com/plantuml/proxy?idx=1&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
 <td>
 
 ```puml
 @startuml
-
-skinparam Activity {
-    BarColor Green
-}
-
+skinparam ActivityBarColor Green
 start
 fork
-    :foo;
+:foo;
 fork again
-    :bar;
+:bar;
 end fork
 stop
-
 @enduml
 ```
 </td>
@@ -61,24 +52,21 @@ stop
         <tr>
             <td><code>Border</code></td>
             <td>
-                <code>BorderColor</code><br/>
-                <code>BorderThickness</code>
+                <code>Color</code><br/>
+                <code>Thickness</code>
              </td>
             <td><img alt="2" src="http://www.plantuml.com/plantuml/proxy?idx=2&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
 <td>
 
 ```puml
 @startuml
-
-skinparam Activity {
-    BorderColor Green
-    BorderThickness 5
+skinparam ActivityBorder {
+  Color Green
+  Thickness 5
 }
-
 start
 :foo;
 stop
-
 @enduml
 ```
 </td>
@@ -86,57 +74,48 @@ stop
         <tr>
             <td><code>Diamond</code></td>
             <td>
-                <code>DiamondBackgroundColor</code><br/>
-                <code>DiamondBorderColor</code><br/>
-                <code>DiamondFontColor</code><br/>
-                <code>DiamondFontName</code><br/>
-                <code>DiamondFontSize</code><br/>
-                <code>DiamondFontStyle</code>
+                <code>BackgroundColor</code><br/>
+                <code>BorderColor</code><br/>
+                <code>Font*</code>
             </td>
             <td><img alt="3" src="http://www.plantuml.com/plantuml/proxy?idx=3&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
 <td>
 
 ```puml
 @startuml
-
-skinparam Activity {
-    DiamondBackgroundColor LightBlue
-    DiamondBorderColor Blue
-    DiamondFontColor DarkBlue
-    DiamondFontName Arial
-    DiamondFontSize 18
-    DiamondFontStyle Bold
+skinparam ActivityDiamond {
+  BackgroundColor LightBlue
+  BorderColor Blue
+  Font {
+    Color DarkBlue
+    Name Arial
+    Size 18
+    Style Bold
+  }
 }
-
 start
 if (isFoo) then (foo)
-    :doFoo;
+  :doFoo;
 else (bar)
-    :doBar;
+  :doBar;
 endif
 stop
-
 @enduml
 ```
 </td>
         </tr>
         <tr>
             <td><code>End</code></td>
-            <td><code>EndColor</code></td>
+            <td><code>Color</code></td>
             <td><img alt="4" src="http://www.plantuml.com/plantuml/proxy?idx=4&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
 <td>
 
 ```puml
 @startuml
-
-skinparam Activity {
-    EndColor Green
-}
-
+skinparam ActivityEndColor Green
 start
 :foo;
 stop
-
 @enduml
 ```
 </td>
@@ -144,74 +123,61 @@ stop
         <tr>
             <td><code>Font</code></td>
             <td>
-                <code>FontColor</code><br/>
-                <code>FontName</code><br/>
-                <code>FontSize</code><br/>
-                <code>FontStyle</code>
+                <code>Color</code><br/>
+                <code>Name</code><br/>
+                <code>Size</code><br/>
+                <code>Style</code>
             </td>
             <td><img alt="5" src="http://www.plantuml.com/plantuml/proxy?idx=5&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
-<td style="text-align: center">
+<td>
 
 ```puml
 @startuml
-
-skinparam Activity {
-    FontColor DarkBlue
-    FontName Arial
-    FontSize 18
-    FontStyle Bold
+skinparam ActivityFont {
+  Color DarkBlue
+  Name Arial
+  Size 18
+  Style Bold
 }
-
 start
 :foo;
 stop
-
 @enduml
 ```
 </td>
         </tr>
         <tr>
             <td><code>Start</code></td>
-            <td><code>StartColor</code></td>
+            <td><code>Color</code></td>
             <td><img alt="6" src="http://www.plantuml.com/plantuml/proxy?idx=6&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
-<td style="text-align: center">
+<td>
 
 ```puml
 @startuml
-
-skinparam Activity {
-    StartColor Green
-}
-
+skinparam ActivityStartColor Green
 start
 :foo;
 stop
-
 @enduml
 ```
 </td>
         </tr>
         <tr>
-            <td>
-            <code>Shape</code><br/>
+            <td colspan="2">
+            <span><code>Shape</code><small>(not supported in Activity Beta syntax)</small></span>
             </td>
-            <td><code>Shape</code><br/></td>
             <td><img alt="7" src="http://www.plantuml.com/plantuml/proxy?idx=7&fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity.txt"/></td>
-<td style="text-align: center">
-<span style="padding: 0.3rem; font-style: italic; font-size: 0.5rem">not supported in Activity Beta syntax</span>
+<td>
 
 ```puml
 @startuml
-
 skinparam Activity {
-    Shape<<Foo>> Octagon
-    Shape<<Bar>> RoundBox
+  Shape<<Foo>> Octagon
+  Shape<<Bar>> RoundBox
 }
-
 (*) --> "foo" << Foo >>
 "foo" --> "bar" << Bar >>
 "bar" --> (*)
-
 @enduml
 ```
 </td>
