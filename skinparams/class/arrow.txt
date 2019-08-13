@@ -1,3 +1,5 @@
+[source,plantuml]
+----
 @startuml
 skinparam ClassArrow {
   Font {
@@ -11,6 +13,6 @@ skinparam ClassArrow {
 class Foo
 class Bar
 class FooBar
-Foo <|-down- Bar: FooLike
 Foo "1" *-up- "many" FooBar: fooBars
 @enduml
+----

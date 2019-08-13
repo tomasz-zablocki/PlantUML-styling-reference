@@ -1,0 +1,66 @@
+= Class styling
+:plantumlProxy: http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src
+:rawRoot: https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/class
+:umlroot: {plantumlProxy}={rawRoot}
+
+[cols="m,l,a,a",options="header",caption=,width=100]
+.Class skinparams
+|===
+
+| Group | skinparam | Diagram | Source
+
+| Arrow
+| Color
+ Font*
+| image::{umlroot}/arrow.txt[arrow]
+| include::class/arrow.txt[]
+
+| Attribute
+| Font*
+ IconSize
+| image::{umlroot}/attribute.txt[attribute]
+|
+[source,plantuml]
+----
+include::{rawRoot}/attribute.txt[]
+----
+
+| Background
+| Color
+| image::{umlroot}/background.txt[background]
+|
+[source,plantuml]
+----
+include::{rawRoot}/background.txt[]
+----
+
+| Border
+| Color
+ Thickness
+| image::{umlroot}/border.txt[border]
+|
+[source, plantuml]
+----
+include::{rawRoot}/border.txt[]
+----
+
+| Header
+| Background*
+| image::{umlroot}/header.txt[header]
+|
+[source, plantuml]
+----
+include::{rawRoot}/header.txt[]
+----
+
+| Stereotype
+| Font*
+| image::{umlroot}/stereotype.txt[stereotype]
+|
+[source, plantuml]
+----
+include::{rawRoot}/arrow.txt[]
+----
+
+|===
+
