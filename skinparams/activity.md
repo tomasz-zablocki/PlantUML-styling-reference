@@ -15,7 +15,7 @@
             <td><code>Background</code></td>
             <td><code>Color</code></td>
             <td><img
-                    src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/background.txt"
+                    src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/background.txt"
                     alt="0"/></td>
 <td>
 
@@ -32,7 +32,7 @@ stop
         <tr>
             <td><code>Bar</code></td>
             <td><code>Color</code></td>
-            <td><img alt="1" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/bar.txt"/></td>
+            <td><img alt="1" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/bar.txt"/></td>
 <td>
 
 ```puml
@@ -55,7 +55,7 @@ stop
                 <code>Color</code><br/>
                 <code>Thickness</code>
              </td>
-            <td><img alt="2" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/border.txt"/></td>
+            <td><img alt="2" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/border.txt"/></td>
 <td>
 
 ```puml
@@ -78,7 +78,7 @@ stop
                 <code>BorderColor</code><br/>
                 <code>Font*</code>
             </td>
-            <td><img alt="3" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/diamond.txt"/></td>
+            <td><img alt="3" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/diamond.txt"/></td>
 <td>
 
 ```puml
@@ -107,7 +107,7 @@ stop
         <tr>
             <td><code>End</code></td>
             <td><code>Color</code></td>
-            <td><img alt="4" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/end.txt"/></td>
+            <td><img alt="4" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/end.txt"/></td>
 <td>
 
 ```puml
@@ -128,7 +128,7 @@ stop
                 <code>Size</code><br/>
                 <code>Style</code>
             </td>
-            <td><img alt="5" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/font.txt"/></td>
+            <td><img alt="5" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/font.txt"/></td>
 <td>
 
 ```puml
@@ -149,7 +149,7 @@ stop
         <tr>
             <td colspan="2">
             <span><code>Shape</code><br/><small>not supported in Activity Beta syntax</small></span></td>
-            <td><img alt="7" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/shape.txt"/></td>
+            <td><img alt="7" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/shape.txt"/></td>
 <td>
         
 ```puml
@@ -168,7 +168,7 @@ skinparam Activity {
         <tr>
             <td><code>Start</code></td>
             <td><code>Color</code></td>
-            <td><img alt="6" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/activity/start.txt"/></td>
+            <td><img alt="6" src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/start.txt"/></td>
 <td>
 
 ```puml
