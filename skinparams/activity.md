@@ -1,6 +1,5 @@
 # Activity
 
-
 <table xmlns="http://www.w3.org/1999/html">
     <thead>
     <tr>
@@ -15,7 +14,7 @@
             <td><code>Background</code></td>
             <td><code>Color</code></td>
             <td><img
-                    src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/background.txt"
+                    src="http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/master/skinparams/activity/background.puml"
                     alt="0"/></td>
 <td>
 

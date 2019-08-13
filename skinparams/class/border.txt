@@ -1,0 +1,8 @@
+@startuml
+skinparam ClassBorder {
+  Color Green
+  Thickness 5
+}
+class Foo {
+}
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+skinparam {
+  ClassAttribute {
+    Font {
+        Color DarkBlue
+        Name Arial
+        Size 22
+        Style Bold
+    }
+    IconSize 22
+  }
+  Padding 20
+}
+class Foo {
+  +Int Bar
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+skinparam ClassArrow {
+  Font {
+    Color DarkBlue
+    Name Arial
+    Size 18
+    Style Bold
+  }
+  Color Blue
+}
+class Foo
+class Bar
+class FooBar
+Foo <|-down- Bar: FooLike
+Foo "1" *-up- "many" FooBar: fooBars
+@enduml

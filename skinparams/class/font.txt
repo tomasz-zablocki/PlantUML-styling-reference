@@ -1,0 +1,10 @@
+@startuml
+skinparam ClassFont {
+  Color DarkBlue
+  Name Arial
+  Size 18
+  Style Bold
+}
+class Foo {
+}
+@enduml

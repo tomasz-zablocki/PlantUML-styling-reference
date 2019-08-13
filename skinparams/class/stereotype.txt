@@ -1,0 +1,10 @@
+@startuml
+skinparam ClassStereotypeFont {
+  Color DarkBlue
+  Name Arial
+  Size 18
+  Style Bold
+}
+class Foo << Bar >> {
+}
+@enduml
