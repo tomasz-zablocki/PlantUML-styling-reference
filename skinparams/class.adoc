@@ -1,9 +1,9 @@
 = Class styling
-:plantumlProxy: http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src
+:plantumlProxy: http://www.plantuml.com/plantuml/proxy
 :rawRoot: https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/class
-:umlroot: {plantumlProxy}={rawRoot}
+:umlRoot: {plantumlProxy}?fmt=svg&cache=no&src={rawRoot}
 
-[cols=".^1m,.^1m',^.^a,3a",options="header",caption=]
+[cols=".^1m,.^1,^.^a,3a",options="header",caption=]
 .Class skinparams
 |===
 
@@ -12,24 +12,24 @@
 | Arrow
 | Color
  Font*
-| image::{umlroot}/arrow.txt[arrow]
+| image::{umlRoot}/arrow.txt[arrow]
 | include::{rawRoot}/arrow.txt[]
 
 | Attribute
 | Font*
  IconSize
-| image::{umlroot}/attribute.txt[attribute]
+| image::{umlRoot}/attribute.txt[attribute]
 | include::{rawRoot}/attribute.txt[]
 
 | Background
 | Color
-| image::{umlroot}/background.txt[background]
+| image::{umlRoot}/background.txt[background]
 | include::{rawRoot}/background.txt[]
 
 | Border
 | Color
  Thickness
-| image::{umlroot}/border.txt[border]
+| image::{umlRoot}/border.txt[border]
 | include::{rawRoot}/border.txt[]
 
 | Font
@@ -37,17 +37,17 @@
  Size
  Name
  Style
-| image::{umlroot}/font.txt[font]
+| image::{umlRoot}/font.txt[font]
 | include::{rawRoot}/font.txt[]
 
 | Header
 | Background*
-| image::{umlroot}/header.txt[header]
+| image::{umlRoot}/header.txt[header]
 | include::{rawRoot}/header.txt[]
 
 | Stereotype
 | Font*
-| image::{umlroot}/stereotype.txt[stereotype]
+| image::{umlRoot}/stereotype.txt[stereotype]
 | include::{rawRoot}/arrow.txt[]
 
 |===
