@@ -1,4 +1,4 @@
-## Shapes 
+== Shapes
 
 * `abstract`
 * `actor`
@@ -29,3 +29,7 @@
 * `state`
 * `storage`
 * `usecase`
+
+= [WARNING]
+
+= This is a warning

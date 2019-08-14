@@ -12,7 +12,7 @@
 10. [`Caption`](caption.md)
 11. [`Card`](card.md)
 12. [`CircledCharacter`](circledcharacter.md)
-13. [`Class`](class.md)
+13. [`Class`](class.adoc)
 14. [`Cloud`](cloud.md)
 15. [`Collection`](collection.md)
 16. [`Component`](component.md)
