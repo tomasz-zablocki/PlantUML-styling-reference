@@ -3,7 +3,7 @@
 :rawRoot: https://raw.githubusercontent.com/tomasz-zablocki/plantuml-theme-reference/wip/skinparams/class
 :umlRoot: {plantumlProxy}?fmt=svg&cache=no&src={rawRoot}
 
-[cols=".^1m,.^1m,^.^a,3a",options="header",caption=]
+[cols=".^1m,.^1m, ^.^a,3a",options="header",caption=]
 .Class skinparams
 |===
 
@@ -11,7 +11,7 @@
 
 | Arrow
 | Color
- Font*
+Font*
 | image::{umlRoot}/arrow.txt[arrow]
 | [source, plantuml]
 ----
@@ -34,7 +34,7 @@ Foo --> Bar : bars
 
 | Attribute
 | Font*
- IconSize
+IconSize
 | image::{umlRoot}/attribute.txt[attribute]
 | [source, plantuml]
 ----
@@ -71,7 +71,7 @@ class Foo {
 
 | Border
 | Color
- Thickness
+Thickness
 | image::{umlRoot}/border.txt[border]
 | [source, plantuml]
 ----
@@ -87,9 +87,9 @@ class Foo {
 
 | Font
 | Color
- Size
- Name
- Style
+Size
+Name
+Style
 | image::{umlRoot}/font.txt[font]
 | [source, plantuml]
 ----
